@@ -5,7 +5,7 @@ function StatsPanel({title,generalCoronaStats}) {
     console.log(generalCoronaStats)
     return (
       <Container className="stats-panel">
-        {title}
+        <div className="stats-title">{title}</div>
         <div className="stats-container">
             <Container className="stat-container">
                 <div className="title">New Confirmed</div>
