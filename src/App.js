@@ -7,6 +7,8 @@ import mock from './mocks/general-stats-mock';
 
 function App() {
   const generalStats = mock;
+  console.log(generalStats);
+  console.log(generalStats.Global);
 
   return (
     <div className="App">

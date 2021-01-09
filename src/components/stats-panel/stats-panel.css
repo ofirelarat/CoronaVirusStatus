@@ -1,0 +1,29 @@
+.stats-panel {
+    width: 320px;
+    float: left;
+}
+
+.stats-panel .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stats-panel .stat-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+    margin: 0;
+}
+
+.stats-panel .stat-container .title{
+    background-color: red;
+    color: white;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.stats-panel .stat-container .value{
+    border: solid red 2px;
+    border-radius: 0px 0px 13px 13px;
+}
