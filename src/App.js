@@ -4,9 +4,11 @@ import Header from './components/header';
 import StatsPanel from './components/stats-panel';
 
 import mock from './mocks/general-stats-mock';
+// import {getSammaryData} from './api/general-stats';
 
-function App() {
+async function  App() {
   const generalStats = mock;
+  // const generalStats = await getSammaryData();
   console.log(generalStats);
   console.log(generalStats.Global);
 
