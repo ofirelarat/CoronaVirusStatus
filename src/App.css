@@ -6,4 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 65%;
+  margin: 20px auto;
+}
+
+.App .seperator{
+  background-color: gray;
+  width: 2px;
 }
