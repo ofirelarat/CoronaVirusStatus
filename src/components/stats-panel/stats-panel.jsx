@@ -4,7 +4,7 @@ import './stats-panel.css';
 function StatsPanel({title,generalCoronaStats}) {
     console.log(generalCoronaStats)
     return (
-      <Container className="stats-panel">
+      <div className="stats-panel">
         <div className="stats-title">{title}</div>
         <div className="stats-container">
             <Container className="stat-container">
@@ -24,7 +24,7 @@ function StatsPanel({title,generalCoronaStats}) {
                 <div className="value">{generalCoronaStats.TotalDeaths}</div>
             </Container>
         </div>
-      </Container>
+      </div>
     );
   }
   
