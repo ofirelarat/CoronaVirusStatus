@@ -7,4 +7,11 @@ const getSammaryData = async () =>{
     return data;
 }
 
-export {getSammaryData};
+const getAllCountries = async () =>{
+    const response = await fetch(`${STATS_API_BASE_URL}/countries`);
+    const data = await response.json();
+
+    return data;
+}
+
+export {getSammaryData, getAllCountries};

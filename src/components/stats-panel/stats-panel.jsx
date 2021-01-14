@@ -37,6 +37,11 @@ function StatsPanel({title,generalCoronaStats}) {
                 </div>
             </Container>
         </div>
+        {
+            generalCoronaStats.Date ?
+                <div className="correct-date">correct to: {generalCoronaStats.Date}</div>
+                : <></>
+        }   
       </div>
     );
   }
