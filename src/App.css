@@ -1,15 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  height: 99%;
+}
+
 .App {
+  font-family: 'Nanum Gothic', sans-serif;
+  height: 97%;
   text-align: center;
+  border: solid 13px #c0392b;
 }
 
 .App .stats-container-main{
   display: flex;
   flex-wrap: wrap;
   width: 65%;
-  margin: 20px auto;
+  margin: 8% auto 0;
 }
 
 .App .seperator{
   background-color: gray;
   width: 2px;
+  margin: 0 auto;
 }

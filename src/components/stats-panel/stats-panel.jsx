@@ -36,6 +36,18 @@ function StatsPanel({title,generalCoronaStats}) {
                     {numberWithCommas(generalCoronaStats.TotalDeaths)}
                 </div>
             </Container>
+            <Container className="stat-container">
+                <div className="title">New Recovered</div>
+                <div className="value">
+                    {numberWithCommas(generalCoronaStats.NewRecovered)}
+                </div>
+            </Container>
+            <Container className="stat-container">
+                <div className="title">Total Recovered</div>
+                <div className="value">
+                    {numberWithCommas(generalCoronaStats.TotalRecovered)}
+                </div>
+            </Container>
         </div>
         {
             generalCoronaStats.Date ?
