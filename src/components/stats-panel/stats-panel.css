@@ -23,18 +23,19 @@
 }
 
 .stats-panel .stat-container .title{
-    background-color: red;
+    background-color: #e74c3c;
     color: white;
     border-radius: 13px 13px 0px 0px;
     font-weight: 600;
 }
 
 .stats-panel .stat-container .value{
-    border: solid red 2px;
+    border: solid #e74c3c 2px;
     border-radius: 0px 0px 13px 13px;
 }
 
 .stats-panel .correct-date{
     font-style: italic;
     font-size: 12px;
+    color: #95a5a6;
 }
