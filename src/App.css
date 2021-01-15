@@ -27,3 +27,9 @@ html, body {
   width: 2px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .App .stats-container-main{
+    width: 100%;
+  }  
+}
